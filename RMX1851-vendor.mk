@@ -19,6 +19,40 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18621/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18621/Hdmi_cal.acdb \
     vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18621/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18621/Headset_cal.acdb \
     vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/18621/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/18621/Speaker_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Global_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_workspaceFile.qwsp \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_General_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Global_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Handset_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tasha-snd-card/MTP_WCD9335_workspaceFile.qwsp \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Bluetooth_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Codec_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Codec_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_General_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Global_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Handset_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Hdmi_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm670-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Bluetooth_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_General_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Global_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Handset_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Hdmi_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Headset_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_Speaker_cal.acdb \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm670-skuw-snd-card/QRD_SKUW_workspaceFile.qwsp \
+    vendor/realme/RMX1851/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/realme/RMX1851/proprietary/vendor/etc/camera/Charming.cng:$(TARGET_COPY_OUT_VENDOR)/etc/camera/Charming.cng \
     vendor/realme/RMX1851/proprietary/vendor/etc/camera/M_Verify_Faster_Common_4.0.0_wp.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Verify_Faster_Common_4.0.0_wp.model \
     vendor/realme/RMX1851/proprietary/vendor/etc/camera/arc_golden.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/arc_golden.bin \
