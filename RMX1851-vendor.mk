@@ -65,6 +65,16 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/etc/camera/mtStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mtStereoParams.bin \
     vendor/realme/RMX1851/proprietary/vendor/etc/camera/mwStereoParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mwStereoParams.bin \
     vendor/realme/RMX1851/proprietary/vendor/etc/camera/oppo_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/oppo_camera_config.xml \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/prebuilt/aecWarmStartCamera_0.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/aecWarmStartCamera_0.txt \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/prebuilt/aecWarmStartCamera_1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/aecWarmStartCamera_1.txt \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/prebuilt/af_calibration_imx519_gt24c64_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/af_calibration_imx519_gt24c64_ofilm.bin \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/prebuilt/awbWarmStartCamera_0.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/awbWarmStartCamera_0.txt \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/prebuilt/awbWarmStartCamera_1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/awbWarmStartCamera_1.txt \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/prebuilt/mapx.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/mapx.bin \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/prebuilt/mapy.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/mapy.bin \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/prebuilt/pdaf2D_calibration_imx519_gt24c64_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/pdaf2D_calibration_imx519_gt24c64_ofilm.bin \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/prebuilt/pdafdcc_calibration_imx519_gt24c64_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/pdafdcc_calibration_imx519_gt24c64_ofilm.bin \
+    vendor/realme/RMX1851/proprietary/vendor/etc/camera/prebuilt/spc_calibration_imx519_gt24c64_ofilm.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/prebuilt/spc_calibration_imx519_gt24c64_ofilm.bin \
     vendor/realme/RMX1851/proprietary/vendor/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/skinSeg.model \
     vendor/realme/RMX1851/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/realme/RMX1851/proprietary/vendor/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oppo.hardware.biometrics.fingerprint@2.1-service.rc \
