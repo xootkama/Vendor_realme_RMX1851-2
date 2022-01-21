@@ -6,4 +6,34 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),RMX1851)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqdutils
+LOCAL_MODULE_OWNER := Realme
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqdutils.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libqdutils.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqdMetaData
+LOCAL_MODULE_OWNER := Realme
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqdutils.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libqdutils.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libqservice
+LOCAL_MODULE_OWNER := Realme
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqdutils.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libqdutils.so
+LOCAL_MULTILIB := both
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+
 endif
