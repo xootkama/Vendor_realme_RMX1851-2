@@ -20,8 +20,8 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqdMetaData
 LOCAL_MODULE_OWNER := Realme
-LOCAL_SRC_FILES_64 := proprietary/lib64/libqdutils.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libqdutils.so
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqdMetaData.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libqdMetaData.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -31,8 +31,8 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqservice
 LOCAL_MODULE_OWNER := Realme
-LOCAL_SRC_FILES_64 := proprietary/lib64/libqdutils.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libqdutils.so
+LOCAL_SRC_FILES_64 := proprietary/lib64/libqdservice.so
+LOCAL_SRC_FILES_32 := proprietary/lib/libqdservice.so
 LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
