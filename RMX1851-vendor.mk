@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX1851
 
 PRODUCT_COPY_FILES += \
-    vendor/realme/RMX1851/proprietary/lib/libqdMetaData.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqdMetaData.so \
-    vendor/realme/RMX1851/proprietary/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqdMetaData.so \
     vendor/realme/RMX1851/proprietary/lib/libchromaflash.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libchromaflash.so \
     vendor/realme/RMX1851/proprietary/lib64/libseemore.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libseemore.so \
     vendor/realme/RMX1851/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
